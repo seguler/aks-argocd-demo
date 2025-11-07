@@ -6,7 +6,6 @@ spec:
   targetRef:
     apiVersion: "apps/v1"
     kind: Deployment
-    namespace: gitops-demo
     name: demo-app
   resourcePolicy:
     containerPolicies:
